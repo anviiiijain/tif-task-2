@@ -24,7 +24,6 @@ const JobDetailsForm: React.FC<{
         jobDetails: Yup.string().required('Job Details is required'),
         jobLocation: Yup.string().required('Job Location is required'),
         //Problem: job possition is not a field but it was required in validation, Solution: remove the validation that is unnecessary
-        // jobPosition: Yup.string().required('Job position is required'),
       }),
       onSubmit: (values) => {
         handleTab(2)

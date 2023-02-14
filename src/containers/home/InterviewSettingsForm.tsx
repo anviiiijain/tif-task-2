@@ -83,7 +83,7 @@ const InterviewDetailsForm: React.FC<{
         />
         <FormSelect
           label='Job Location'
-          //Problem label='Interview Language'
+          //Problem: label may not be write,Solution: label='Interview Language'
           name='interviewLanguage'
           placeholder='Select interview language'
           options={interviewLanguageOptions}
